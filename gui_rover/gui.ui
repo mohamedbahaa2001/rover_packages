@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>983</width>
+    <height>732</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>15</pointsize>
+   </font>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>371</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>281</width>
+      <height>241</height>
+     </size>
+    </property>
+    <property name="title">
+     <string>Motors Speed</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="10" column="0">
+      <widget class="QLabel" name="motor6Label">
+       <property name="minimumSize">
+        <size>
+         <width>58</width>
+         <height>17</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Motor 6:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="Line" name="line_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="motor1Label">
+       <property name="minimumSize">
+        <size>
+         <width>62</width>
+         <height>17</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Motor 1: </string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="motor3Label">
+       <property name="minimumSize">
+        <size>
+         <width>58</width>
+         <height>17</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Motor 3:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="motor5Label">
+       <property name="minimumSize">
+        <size>
+         <width>58</width>
+         <height>17</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Motor 5:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="Line" name="line_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="Line" name="line_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="motor2Label">
+       <property name="minimumSize">
+        <size>
+         <width>58</width>
+         <height>17</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Motor 2:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="Line" name="line">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="Line" name="line_5">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="motor4Label">
+       <property name="minimumSize">
+        <size>
+         <width>58</width>
+         <height>17</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Motor 4:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QTextEdit" name="textEdit">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QTextEdit" name="textEdit_2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QTextEdit" name="textEdit_3">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QTextEdit" name="textEdit_4">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QTextEdit" name="textEdit_5">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QTextEdit" name="textEdit_6">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>440</y>
+      <width>441</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>281</width>
+      <height>241</height>
+     </size>
+    </property>
+    <property name="title">
+     <string>Sensors and functions</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="6" column="0">
+      <widget class="QLabel" name="buriedLabel">
+       <property name="minimumSize">
+        <size>
+         <width>58</width>
+         <height>17</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Buried mines</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="Line" name="line_7">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="Line" name="line_10">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="surfaceLabel">
+       <property name="minimumSize">
+        <size>
+         <width>58</width>
+         <height>17</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Surface mines</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="Line" name="line_9">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="Line" name="line_8">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="velocityLabel">
+       <property name="minimumSize">
+        <size>
+         <width>62</width>
+         <height>17</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Velocity</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="minedetectorlabel">
+       <property name="minimumSize">
+        <size>
+         <width>58</width>
+         <height>17</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Mine Detectore state</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="gyroscopeLabel">
+       <property name="minimumSize">
+        <size>
+         <width>58</width>
+         <height>17</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Gyroscope</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QTextEdit" name="textEdit_7">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QTextEdit" name="textEdit_8">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QTextEdit" name="textEdit_9">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QTextEdit" name="textEdit_10">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QTextEdit" name="textEdit_11">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTableView" name="surfaceMapTable">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>120</y>
+      <width>241</width>
+      <height>481</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableView" name="buridMapTable">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>120</y>
+      <width>241</width>
+      <height>481</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="showDataBtn">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>610</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Show Maps</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timerlbl">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Umpush</family>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Timer:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="surfaceMineMaplbl">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>70</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Surface verctor map</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::RichText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="buridMineMaplbl">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>70</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Burid verctor map</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::RichText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timerValueLbl">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>40</y>
+      <width>81</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startTimer">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stopTimer">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>90</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="resetTimer">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>130</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reset</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>983</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
